@@ -1,0 +1,62 @@
+﻿body {
+    background-color: #2F4F4F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0; /* Add some spacing above and below */
+}
+
+.header {
+    background-color: ghostwhite;
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px 15px;
+    margin: 10px 0; /* Add spacing between header and other elements */
+}
+
+
+.container {
+    display: flex;
+    padding-bottom: 12px;
+    gap: 7%;
+    background-color: darkblue;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 19px;
+}
+
+.studentinfo {
+    background-color: #f4f4f9;
+    font-family: 'Baskerville Old Face';
+    font-size: 20px;
+    border: dashed;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.finialgrade {
+    width: 170px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #007BFF;
+    background-color: #f4f4f9;
+    font-family: 'Baskerville Old Face';
+    font-size: 20px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    text-align:center;
+}
+.answers {
+    border: dashed;
+    border-radius: 1%;
+    padding-left: 12px;
+    padding-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:19px;
+    background-color:white;
+}

@@ -1,0 +1,91 @@
+﻿body {
+    background-color: #2F4F4F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#studentInfo {
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Inner spacing */
+    background-color: #f8f9fa; /* Light gray background */
+    margin-bottom: 20px; /* Space below the fieldset */
+}
+
+#studentInfo legend {
+        color: aliceblue;
+        background-color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 10px 15px; /* Top and Bottom and Left and Right  */
+        border-radius:12px;
+}
+
+ #studentInfo label {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        color: #333; /* Darker text for labels */
+        margin-bottom: 5px; 
+ }
+
+#header {
+    background-color: ghostwhite;
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px 15px; /* Top and Bottom and Left and Right  */
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border-left: 4px solid red;
+}
+
+select {
+    font-size: 16px; 
+    padding: 10px 15px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Dark text color */
+    width: 50%; 
+}
+
+.question {
+    color: black;
+    font-weight: bold;
+    background-color: whitesmoke;
+    font-size: 24px;
+    padding-left: 5px;
+    border-radius: 19px;
+    padding: 10px 15px; /* Top and Bottom and Left and Right  */
+}
+.questions {
+    border-style: groove;
+    font-size: 18px;
+    background-color: white;
+    padding-left: 5px;
+    border-radius: 19px;
+}
+.button {
+    text-align: center;
+}
+#btnSubmit {
+    font-size: 18px; 
+    padding: 15px 30px; 
+    border: none;
+    background-color: #007BFF; 
+    color: white; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+#btnSubmit:hover {
+        background-color: #0056b3;
+}
+
+
+
+
+
+
+

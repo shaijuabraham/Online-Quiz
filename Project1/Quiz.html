@@ -1,0 +1,422 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="QuizPage.css">
+    <title> Quiz</title>
+</head>
+<body>
+    <h1 id="header"> Quiz: Comprehensive .NET and Design Principles  </h1>
+    <form method="post" action="QuizResults.aspx">
+        <fieldset id="studentInfo">
+            <legend>Student Informanation:</legend>
+            <label>Name:</label>
+            <input type="text" name="txtStudentInfo" value="Shaiju Rajan">
+            <br><br>
+            <label>Student TUID:</label>
+            <input type="text" name="txtStudentId" value="TU97762352">
+            <br><br>
+        </fieldset>
+        <br />
+
+        <!--Question 1-->
+        <div class="questions">
+            <div class="question">
+                <label>1. What is Windows Forms in the context of .NET applications?</label>
+            </div>
+            <br />
+            <input type="radio" id="rdbAnswerOne" name="rdbAnswerOne" value="A web application framework" />
+            <label>A web application framework</label>
+            <br />
+            <input type="radio" id="rdbAnswerOne" name="rdbAnswerOne" value="A graphical user interface (GUI) framework for building desktop applications" />
+            <label>A graphical user interface (GUI) framework for building desktop applications</label>
+            <br />
+            <input type="radio" id="rdbAnswerOne" name="rdbAnswerOne" value="A database management system" />
+            <label>A database management system</label>
+            <br />
+            <input type="radio" id="rdbAnswerOne" name="rdbAnswerOne" value="A cloud storage service" />
+            <label>A cloud storage service</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 2-->
+        <div class="questions">
+            <div class="question">
+                <label>2. Which of the following is used to declare a variable in C#?</label>
+            </div>
+            <br />
+            <input type="checkbox" id="chkAnswerTwo" name="chkAnswerTwo" value="var" />
+            <label>var</label>
+            <br />
+            <input type="checkbox" id="chkAnswerTwo" name="chkAnswerTwo" value="let" />
+            <label>let</label>
+            <br />
+            <input type="checkbox" id="chkAnswerTwo" name="chkAnswerTwo" value="dim" />
+            <label>dim</label>
+            <br />
+            <input type="checkbox" id="chkAnswerTwo" name="chkAnswerTwo" value="define" />
+            <label>define</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 3-->
+        <div class="questions">
+            <div class="question">
+                <label> 3. Which keyword is used to handle exceptions in C#? </label>
+            </div>
+            <br />
+            <select id="drpAnswerThree" name="drpAnswerThree">
+                <option value="No Selection"> Select Answer</option>
+                <option value="try">try</option>
+                <option value="catch">catch</option>
+                <option value="throw">throw</option>
+                <option value="all">All of the above</option>
+            </select>
+            <br /><br />
+        </div>
+        <br /><br />
+
+        <!--Question 4-->
+        <div class="questions">
+            <div class="question">
+                <label>4. What is the default access modifier for a class in C#?</label>
+            </div>
+            <br />
+            <input type="text" id="txtAnswerFour" name="txtAnswerFour" required value="Type the Answer" />
+            <br /><br />
+        </div>
+        <br /><br />
+        <!--Question 5-->
+        <div class="questions">
+            <div class="question">
+                <label>5. Which event is triggered when a button is clicked in a Windows Forms application? </label>
+            </div>
+            <br />
+            <input type="radio" id="rdbAnswerFive" name="rdbAnswerFive" value="Click" />
+            <label>Click</label>
+            <br />
+            <input type="radio" id="rdbAnswerFive" name="rdbAnswerFive" value="Load" />
+            <label>Load</label>
+            <br />
+            <input type="radio" id="rdbAnswerFive" name="rdbAnswerFive" value="TextChanged" />
+            <label>TextChanged</label>
+            <br />
+            <input type="radio" id="rdbAnswerFive" name="rdbAnswerFive" value="MouseEnter" />
+            <label>MouseEnter</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 6-->
+        <div class="questions">
+            <div class="question">
+                <label>6. What method is commonly used to display a message box in Windows Forms?</label>
+            </div>
+            <br />
+            <input type="radio" id="rdbAnswerSix" name="rdbAnswerSix" value="ShowMessage()" />
+            <label>ShowMessage()</label>
+            <br />
+            <input type="radio" id="rdbAnswerSix" name="rdbAnswerSix" value="optionb" />
+            <label>Display()</label>
+            <br />
+            <input type="radio" id="rdbAnswerSix" name="rdbAnswerSix" value="optionc" />
+            <label>MessageBox.Show()</label>
+            <br />
+            <input type="radio" id="rdbAnswerSix" name="rdbAnswerSix" value="optiond" />
+            <label>Alert.Show()</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 7-->
+        <div class="questions">
+            <div class="question">
+                <label>7. How do you add a new control to a Windows Form in the designer view?</label>
+            </div>
+            <br />
+            <input type="radio" id="rdbAnswerSeven" name="rdbAnswerSeven" value="Drag and drop from the toolbox" />
+            <label>Drag and drop from the toolbox</label>
+            <br />
+            <input type="radio" id="rdbAnswerSeven" name="rdbAnswerSeven" value="Write code manually" />
+            <label>Write code manually</label>
+            <br />
+            <input type="radio" id="rdbAnswerSeven" name="rdbAnswerSeven" value="Use the AddControl method" />
+            <label>Use the AddControl method</label>
+            <br />
+            <input type="radio" id="rdbAnswerSeven" name="rdbAnswerSeven" value="Import from a file" />
+            <label> Import from a file</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 8-->
+        <div class="questions">
+            <div class="question">
+                <label> 8. What property of a TextBox control in Windows Forms determines its text content?</label>
+            </div>
+            <br />
+            <input type="radio" id="rdbAnswerEight" name="rdbAnswerEight" value="Text" />
+            <label>Text</label>
+            <br />
+            <input type="radio" id="rdbAnswerEight" name="rdbAnswerEight" value="Content" />
+            <label>Content</label>
+            <br />
+            <input type="radio" id="rdbAnswerEight" name="rdbAnswerEight" value="Value" />
+            <label>Value</label>
+            <br />
+            <input type="radio" id="rdbAnswerEight" name="rdbAnswerEight" value="String" />
+            <label>String</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 9-->
+        <div class="questions">
+            <div class="question">
+                <label> 9. Which method is called when a Windows Form is first loaded? </label>
+            </div>
+            <br />
+            <input type="radio" id="rdbanswerNine" name="rdbanswerNine" value="OnLoad()" />
+            <label>OnLoad()</label>
+            <br />
+            <input type="radio" id="rdbanswerNine" name="rdbanswerNine" value="Load()" />
+            <label>Load()</label>
+            <br />
+            <input type="radio" id="rdbanswerNine" name="rdbanswerNine" value="InitializeComponent()" />
+            <label>InitializeComponent()</label>
+            <br />
+            <input type="radio" id="rdbanswerNine" name="rdbanswerNine" value="Form_Load()" />
+            <label>Form_Load()</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 10-->
+        <div class="questions">
+            <div class="question">
+                <label>10. Which of the following is NOT a data type in Microsoft Access?</label>
+            </div>
+            <br />
+            <input type="checkbox" id="chkAnswerTen" name="chkAnswerTen" value="Text" />
+            <label>Text</label>
+            <br />
+            <input type="checkbox" id="chkAnswerTen" name="chkAnswerTen" value="Date/Time" />
+            <label>Date/Time</label>
+            <br />
+            <input type="checkbox" id="chkAnswerTen" name="chkAnswerTen" value="Long Integer" />
+            <label>Long Integer</label>
+            <br />
+            <input type="checkbox" id="chkAnswerTen" name="chkAnswerTen" value="Boolean" />
+            <label>Boolean</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 11-->
+        <div class="questions">
+            <div class="question">
+                <label>11. What is the purpose of a primary key in an Access database?</label>
+            </div>
+            <br />
+            <input type="radio" id="rdbanswerEleven" name="rdbanswerEleven" value="To create a unique identifier for each record" />
+            <label>To create a unique identifier for each record</label>
+            <br />
+            <input type="radio" id="rdbanswerEleven" name="rdbanswerEleven" value="To enforce data validation rules" />
+            <label>To enforce data validation rules</label>
+            <br />
+            <input type="radio" id="rdbanswerEleven" name="rdbanswerEleven" value="To improve query performance" />
+            <label>To improve query performance</label>
+            <br />
+            <input type="radio" id="rdbanswerEleven" name="rdbanswerEleven" value="To create relationships between tables" />
+            <label>To create relationships between tables</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 12-->
+        <div class="questions">
+            <div class="question">
+                <label>12. How do you create a new query in Microsoft Access?</label>
+            </div>
+            <br />
+            <input type="radio" id="rdbAnswerTwelve" name="rdbAnswerTwelve" value="Use the Query Design option" />
+            <label>Use the Query Design option</label>
+            <br />
+            <input type="radio" id="rdbAnswerTwelve" name="rdbAnswerTwelve" value="Use the Table Design option" />
+            <label>Use the Table Design option</label>
+            <br />
+            <input type="radio" id="rdbAnswerTwelve" name="rdbAnswerTwelve" value="Use the Report Wizard" />
+            <label>Use the Report Wizard</label>
+            <br />
+            <input type="radio" id="rdbAnswerTwelve" name="rdbAnswerTwelve" value="Use the Form Design option" />
+            <label>Use the Form Design option</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 13-->
+        <div class="questions">
+            <div class="question">
+                <label>13. Which Access object is used to display data in a tabular format?</label>
+            </div>
+            <br />
+            <input type="checkbox" id="chkAnswerThirteen" name="chkAnswerThirteen" value="Form" />
+            <label>Form</label>
+            <br />
+            <input type="checkbox" id="chkAnswerThirteen" name="chkAnswerThirteen" value="Report" />
+            <label>Report</label>
+            <br />
+            <input type="checkbox" id="chkAnswerThirteen" name="chkAnswerThirteen" value="Query" />
+            <label>Query</label>
+            <br />
+            <input type="checkbox" id="chkAnswerThirteen" name="chkAnswerThirteen" value="Table" />
+            <label>Table</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 14-->
+        <div class="questions">
+            <div class="question">
+                <label>14. In Access, which type of relationship ensures referential integrity?</label>
+            </div>
+            <br />
+            <input type="checkbox" id="chkAnswerFourteen" name="chkAnswerFourteen" value="One-to-Many" />
+            <label>One-to-Many</label>
+            <br />
+            <input type="checkbox" id="chkAnswerFourteen" name="chkAnswerFourteen" value="Many-to-Many" />
+            <label>Many-to-Many</label>
+            <br />
+            <input type="checkbox" id="chkAnswerFourteen" name="chkAnswerFourteen" value="One-to-One" />
+            <label>One-to-One</label>
+            <br />
+            <input type="checkbox" id="chkAnswerFourteen" name="chkAnswerFourteen" value="Many-to-One" />
+            <label>Many-to-One</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 15-->
+        <div class="questions">
+            <div class="question">
+                <label>15. Which SOLID principle states that a class should have only one reason to change?</label>
+            </div>
+            <br />
+            <input type="checkbox" id="chkAnswerFifteen" name="chkAnswerFifteen" value="Single Responsibility Principle" />
+            <label>Single Responsibility Principle</label>
+            <br />
+            <input type="checkbox" id="chkAnswerFifteen" name="chkAnswerFifteen" value="Open/Closed Principle" />
+            <label>Open/Closed Principle</label>
+            <br />
+            <input type="checkbox" id="chkAnswerFifteen" name="chkAnswerFifteen" value="Liskov Substitution Principle" />
+            <label>Liskov Substitution Principle</label>
+            <br />
+            <input type="checkbox" id="chkAnswerFifteen" name="chkAnswerFifteen" value="Dependency Inversion Principle" />
+            <label>Dependency Inversion Principle</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 16-->
+        <div class="questions">
+            <div class="question">
+                <label>16. The Open/Closed Principle states that software entities should be open for extension but closed for what?</label>
+            </div>
+            <br />
+            <select id="drpAnswerSixteen" name="drpAnswerSixteen">
+                <option value="Maintenance">Maintenance</option>
+                <option value="Modification">Modification</option>
+                <option value="Use">Use</option>
+                <option value="Integration">Integration</option>
+            </select>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 17-->
+        <div class="questions">
+            <div class="question">
+                <label>17. Which principle suggests that derived classes must be substitutable for their base classes?</label>
+            </div>
+            <br />
+            <input type="radio" id="rdbAnswerSeventeen" name="rdbAnswerSeventeen" value="Single Responsibility Principle" />
+            <label>Single Responsibility Principle</label>
+            <br />
+            <input type="radio" id="rdbAnswerSeventeen" name="rdbAnswerSeventeen" value="Liskov Substitution Principle" />
+            <label>Liskov Substitution Principle</label>
+            <br />
+            <input type="radio" id="rdbAnswerSeventeen" name="rdbAnswerSeventeen" value="Interface Segregation Principle" />
+            <label>Interface Segregation Principle</label>
+            <br />
+            <input type="radio" id="rdbAnswerSeventeen" name="rdbAnswerSeventeen" value="Dependency Inversion Principle" />
+            <label>Dependency Inversion Principle</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 18-->
+        <div class="questions">
+            <div class="question">
+                <label>18. What is the key idea of the Interface Segregation Principle?</label>
+            </div>
+            <br />
+            <input type="radio" id="rdbAnswerEighteen" name="rdbAnswerEighteen" value="Clients should not be forced to depend on interfaces they do not use." />
+            <label>Clients should not be forced to depend on interfaces they do not use.</label>
+            <br />
+            <input type="radio" id="rdbAnswerEighteen" name="rdbAnswerEighteen" value="Classes should be designed to be easily extendable." />
+            <label>Classes should be designed to be easily extendable.</label>
+            <br />
+            <input type="radio" id="rdbAnswerEighteen" name="rdbAnswerEighteen" value="Base classes should be open for modification." />
+            <label>Base classes should be open for modification.</label>
+            <br />
+            <input type="radio" id="rdbAnswerEighteen" name="rdbAnswerEighteen" value="Modules should be independent of each other." />
+            <label>Modules should be independent of each other.</label>
+            <br><br>
+        </div>
+        <br /><br />
+
+        <!--Question 19-->
+        <div class="questions">
+            <div class="question">
+                <label>19. Which SOLID principle emphasizes the importance of designing systems so that high-level modules are not dependent on low-level modules?</label>
+            </div>
+            <br />
+            <input type="radio" id="rdbAnswerNineteen" name="rdbAnswerNineteen" value="Dependency Inversion Principle" />
+            <label>Dependency Inversion Principle</label>
+            <br />
+            <input type="radio" id="rdbAnswerNineteen" name="rdbAnswerNineteen" value="Single Responsibility Principle" />
+            <label>Single Responsibility Principle</label>
+            <br />
+            <input type="radio" id="rdbAnswerNineteen" name="rdbAnswerNineteen" value="Open/Closed Principle" />
+            <label>Open/Closed Principle</label>
+            <br />
+            <input type="radio" id="rdbAnswerNineteen" name="rdbAnswerNineteen" value="Liskov Substitution Principle" />
+            <label>Liskov Substitution Principle</label>
+            <br><br>
+        </div>
+        <br /><br />
+        <!--Question 20-->
+        <div class="questions">
+            <div class="question">
+                <label>20. What is the primary purpose of the .NET framework in application development?</label>
+            </div>
+            <br />
+            <input type="text" id="txtAnswerTwenty" name="txtAnswerTwenty" required value="Type the Answer" />
+            <br /><br />
+        </div>
+        <br /><br />
+        <span id="lblDisplay" name="lblDisplay" style="color:#CC3300;"></span>
+        <br /><br />
+        <!--Summit Button-->
+        <div class=" button">
+            <input type="submit" id="btnSubmit" name="btnSubmit" value="Submit Quiz" />
+            <br />
+            <br />
+        </div>
+
+    </form>
+
+</body>
+</html>
